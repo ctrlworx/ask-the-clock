@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ctrlworx/ask-the-clock",
+  "title": "Ask the Clock (Ctrl Worx Watch List)",
+  "description": "Live material weakness status and Clock figures for public companies, from their own SEC filings.",
+  "version": "0.2.9",
+  "websiteUrl": "https://ctrlworx.com/watch-list/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ctrlworx.com/wp-json/ctrlworx/v1/ask-the-clock"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://ctrlworx.com/wp-content/uploads/2026/10/ctrlworx-icon-tile-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
+  ]
+}
